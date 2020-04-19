@@ -1,5 +1,5 @@
 {
-  "name": "http-intercepter-demo",
+  "name": "http-Interceptor-demo",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -21,6 +21,7 @@
     "@angular/router": "~8.2.14",
     "@ng-bootstrap/ng-bootstrap": "^5.2.2",
     "bootstrap": "^4.4.1",
+    "ngx-toastr": "^10.0.4",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"

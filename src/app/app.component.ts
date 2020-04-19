@@ -7,7 +7,7 @@ import { ApisService } from './core/services/apis.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'http-intercepter-demo';
+  title = 'http-Interceptor-demo';
   titles: any = [];
   loading: boolean = false;
 
@@ -23,7 +23,6 @@ export class AppComponent {
 
   fetchError() {
     this.apiService.fetchError().subscribe((data) => {
-      console.log('data', data);
     });
   }
 }

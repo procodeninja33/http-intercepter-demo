@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('http-intercepter-demo app is running!');
+    expect(page.getTitleText()).toEqual('http-Interceptor-demo app is running!');
   });
 
   afterEach(async () => {
